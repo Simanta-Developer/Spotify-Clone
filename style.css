@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-image: url('spotify _bg_img.png');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container h1{
+   margin-left: 12px;
+}
+ nav{
+    font-family: 'Ubuntu',sans-serif;
+ }
+ nav ul{
+    display : flex ;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Ubuntu',sans-serif;
+    height : 50px ;
+    color:white ;
+    background-color: black;
+    border-bottom: 3px solid rgb(5, 236, 47)
+ }
+ nav ul li{
+    padding: 0 12px ;
+ }
+ .brand img{
+    width : 45px ;
+    padding : 0 8px;
+ }
+.brand{
+    display : flex ;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+   position : sticky ;
+   height : 120px ;
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 20px ;
+}
+.songContainer{
+   margin-top : 30px ;
+   padding-bottom:40px;
+}
+.container{
+   min-height: 75vh;
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: 156vh; 
+   color : white ;
+   border-radius: 10px;
+   margin : 23px auto;
+   font-family: 'Ubuntu',sans-serif;
+   width : 70% ;   
+   background-image: url('spotifybluebg.jpg'); 
+}
+#myProgressBar{
+   width: 80vw ;
+   cursor : pointer ; 
+   
+}
+.icons{
+   margin-top: 25px; 
+}
+.icons i{
+   cursor : pointer ;  
+}
+/* .conImg img{
+   display : flex;
+   height: 100%;
+   width:100%;
+      
+} */
+.songItems{
+   height : 50px;
+   display:flex ;
+   background-color: black;
+   opacity: 0.8;
+   color : white;
+   width : 53%;
+   margin : 12px ;
+   justify-content: space-between;
+   align-items: center;
+   border: 2px solid rgb(5, 236, 47);
+   border-radius: 5px ; 
+}
+.songItems img{
+   width : 45px ;
+   margin: 12px;
+   border-radius: 5px;
+}
+.songItemPlay{
+   margin-left : 3px;
+   margin-right: 3px;
+}
+.timestamp{
+   padding : 0 23px ;
+}
+.timestamp i{
+   cursor : pointer ;
+}
+.songInfo{
+   position : absolute ;
+   left : 10vw ;
+   font-family: 'Ubuntu',sans-serif;
+}
+.songInfo img{
+   opacity: 0;
+   transition: 1s ease-in;
+}
+#masterPlay{
+   margin-left: 10px;
+   margin-right: 10px;
+}  
+
+
